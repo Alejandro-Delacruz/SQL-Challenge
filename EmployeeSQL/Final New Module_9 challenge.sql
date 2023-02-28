@@ -3,7 +3,7 @@ and salary of each employee (2 points)*/
 
 SELECT    s.emp_no,last_name,first_name,sex,salary 
 FROM      employees e
-LEFT JOIN alaries s
+LEFT JOIN salaries s
 ON 			  e.emp_no=s.emp_no;
 
 /*List the first name, last name, and hire date for the 
